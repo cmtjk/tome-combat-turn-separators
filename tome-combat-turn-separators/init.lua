@@ -1,0 +1,14 @@
+long_name = "Combat Turn Separators"
+short_name = "combat-turn-separators" -- Determines the name of your addon's file.
+for_module = "tome"
+version = {1,7,6}
+addon_version = {1,0,0}
+weight = 9999 -- The lower this value, the sooner your addon will load compared to other addons.
+author = {'Cornelius Matejka', 'cornelius.matejka@cmtjk.de'}
+homepage = "https://github.com/cmtjk/tome-combat-turn-separators"
+description = [[Combat Turn Separator]] -- A description of your addon.
+tags = {'apewithgrape', 'combat', 'turn', 'turns', 'log', 'logs', 'combat turn', 'combat turns', 'combat log', 'combat logs', 'separator', 'separators'} -- tags MUST immediately follow description
+overload = false
+superload = true
+data = false
+hooks = false
